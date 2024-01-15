@@ -1,0 +1,69 @@
+.container {   
+    text-align: center;	
+}
+.volver {
+	color: black;
+	font-size: 1.0em;
+	background-color: yellow;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 25px;
+	text-decoration: none;
+}
+nav {
+	margin: 10px auto;
+	background-color: #673ab7;
+	width: 45%;
+	border-radius: 10px;
+}
+nav h1 {
+    font-size: 2.8em; /* 1.8em estable 1.8 veces el tamaño de la letra predeterminada */
+	color: white;
+    text-align: center;
+	cursor: pointer;   
+}
+.encabezado {
+	color: black;
+	font-style:italic;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+.platos {
+	font-size: 1.5em; 
+    background-color:rgb(255, 98, 0); /* Color de fondo */
+    width: 60%;
+    color: white; /* Color del texto de todo el contenido */
+	padding: 25px; /* Agregado espacio de relleno */
+    margin: 10px auto;
+    height: auto;
+	display: flex;
+    flex-direction: row; /* Cambiado de row a column */
+    align-items: center; /* Centra al medio, verticalmente */
+    justify-content: center;  /* Centra al medio, horizontalmente */
+    text-align: center;  /* Centra el texto */
+    border-radius: 10px;
+    cursor: pointer; 
+}
+.left-container {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    text-align: left; /* Alinea el texto a la izquierda */	
+
+}
+.right-container {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    text-align: right; /* Alinea la imagen a la derecha */
+	border-radius: 50%; /* Forma circular para la imagen*/
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); /* Sombra suave para la imagen */
+	border: 3px solid  #000; /* Ancho del borde y color */
+	height: 300px;
+}
+.receta {
+	font-size: 0.9em;
+	color:black;
+	background-color: blue;
+	padding: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+

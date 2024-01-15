@@ -1,0 +1,55 @@
+body {
+    padding: 47px;   
+    text-align: center;
+}
+header {
+    font-size: 1.5em;
+    border:10px groove black; /* Borde */
+    background-color:red; /* Color de fondo */
+    width:60%;
+    color: white; /* Color del texto de todo el contenido */
+    margin: 10px auto;
+    height: 50px;
+    display: flex; /* Configuración de flexbox para centrar contenido */
+    align-items: center; /* Centra al medio, verticalmente */
+    justify-content: center;  /* Centra al medio, horizontalmente */
+    text-align: center;  /* Centra el texto */
+    border-radius: 10px;
+    cursor: pointer; 
+}
+a {
+    text-decoration: none;
+}
+nav {
+	margin: 10px auto;
+	background-color: #673ab7;
+	width: 30%;
+	border-radius: 10px;
+}
+nav p {
+    font-size: 2.2em; /* 1.8em estable 1.8 veces el tamaño de la letra predeterminada */
+	color: white;
+    text-align: center;
+	cursor: pointer;   
+    
+}
+.platos {
+    border:10px groove #ccc; /* Borde */
+    background-color:red; /* Color de fondo */
+    width: 50%;
+    height: 100%;
+    color: white; /* Color del texto de todo el contenido */
+    margin: 10px auto;
+    height: 50px;
+    display: flex; /* Configuración de flexbox para centrar contenido */
+    align-items: center; /* Centra al medio, verticalmente */
+    justify-content: center;  /* Centra al medio, horizontalmente */
+    text-align: center;  /* Centra el texto */
+    border-radius: 10px;
+}
+img {
+    max-width: 100%; /* Ajusta el ancho máximo según tus necesidades */
+    height: auto;
+    border-radius: 20px;
+}
+

@@ -1,0 +1,90 @@
+.container {   
+    text-align: center;	
+}
+.volver {
+	color: black;
+	font-size: 1.0em;
+	background-color: yellow;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 25px;
+	text-decoration: none;
+}
+header {
+	margin: 10px auto;
+	background-color: rgb(255, 98, 0);
+	width: 45%;
+	border-radius: 10px;
+	font-size: 1.2em; 
+	border:10px groove black; /* Borde */
+	height: 50px;
+	display: flex; /* Configuración de flexbox para centrar contenido */
+    align-items: center; /* Centra al medio, verticalmente */
+    justify-content: center;  /* Centra al medio, horizontalmente */
+}
+header h1 {
+    font-size: 2.8em; /* 1.8em estable 1.8 veces el tamaño de la letra predeterminada */
+	color: white;
+    text-align: center;
+	cursor: pointer;   
+}
+.platos {
+	font-size: 1.5em; 
+    background-color: rgb(56, 225, 231); /* Color de fondo */
+    width: 60%;
+    color: white; /* Color del texto de todo el contenido */
+	padding: 26px; /* Agregado espacio de relleno */
+    margin: 10px auto;
+    height: auto;
+    text-align: center;  /* Centra el texto */
+    border-radius: 10px;
+    cursor: pointer; 
+}
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+.table th, td {
+    border: 2px solid #000;
+
+}
+th {
+    background-color:rgb(255, 26, 26);
+	color:white;
+	font-size: 1.2em; 
+}
+td {
+	background-color: rgb(248, 248, 34);
+	color: black;
+}
+.img_receta {
+	border: 3px solid  #000; /* Ancho del borde y color */
+	border-radius: 50%; /* Forma circular para la imagen*/
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); /* Sombra suave para la imagen */
+	width: 350px;
+}
+.titulo_elaboracion {		
+	background-color: red;
+	margin-left: 10px;
+	height: 50px;
+	width: 45%;
+	display: flex; /* Configuración de flexbox para centrar contenido */
+    align-items: center; /* Centra al medio, verticalmente */
+    justify-content: center;  /* Centra al medio, horizontalmente */
+	border-radius: 10px;
+	font-size: 1.0em; 
+	color: white;
+	cursor: pointer;  	
+}
+.elaboracion {
+	background-color: white;
+    padding: 25px; /* Ajusta según sea necesario */
+    border-radius: 10px; /* Bordes redondeados si lo deseas */
+	width: 92%;
+	color: #000;
+	text-align: left;
+	margin: 5px auto;
+}
+

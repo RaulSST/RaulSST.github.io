@@ -1,0 +1,27 @@
+body {
+    background-image: url("pizzeria.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display:flex;   /* Activa el modelo de caja flexible (flexbox), significa que habilita un conjunto de propiedades CSS que permiten controlar la disposición y alineación de elementos secundarios en un contenedor */
+    /* A partir de aquí, puedes controlar la disposición y alineación de los elementos secundarios: */
+    align-items: center;   /* Alinea verticalmente en el centro */
+    justify-content: center;   /* Alinea horizontalmente en el centro */
+    height:175vh;   /* height:vh se utiliza para establecer la altura de un elemento en relación con la altura de la ventana gráfica del navegador. */    
+    font-family: cursive   /* font-family se utiliza para definir el tipo de fuente que se debe aplicar a un elemento, en este caso el tipo de fuente es cursive. */
+}
+h2 {color: red;
+    text-align: center;
+}
+.fondo{ background-color: yellow;
+    padding: 5px;   
+}
+fieldset {
+    /* Cuando hay 2 valores (osea 2 veces px) en padding */
+    /* El primer valor (en este caso 10px) se refiere al relleno en la parte superior e inferior del elemento. */
+    /* El segundo valor (en este caso 20px) se refiere al relleno en los lados izquierdo y derecho del elemento. */
+    padding: 10px 20px;   
+    background-color: yellow;
+}
+legend { color:red}
