@@ -1,0 +1,85 @@
+body {
+    padding: 70px;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+table th {
+    width: 10em;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+}
+
+.table th, td {
+    border: 1px solid #000000c0;
+}
+
+input {
+    height: 32px;
+    width: 86%;
+}
+
+.centro_caracter {
+    text-align: center;
+}
+
+tr {
+    height: 40px;
+}
+
+td {
+    font-size: 18px;
+}
+
+tr:nth-of-type(1) > th {
+    background-color:cyan;
+}
+
+tr:nth-of-type(2) > td {
+    background-color:rgb(255, 106, 0);
+}
+
+tr:nth-of-type(3) > th {
+    background-color: yellow;
+}
+
+tr:nth-of-type(4) > th,
+tr:nth-of-type(5) > th,
+tr:nth-of-type(6) > th,
+tr:nth-of-type(7) > th,
+tr:nth-of-type(8) > th,
+tr:nth-of-type(9) > th,
+tr:nth-of-type(10) > th{
+    background-color:lime;
+}
+
+.base_datos {
+    background-color:rgba(0, 60, 255, 0.989);
+}
+.programacion {
+    background-color:rgba(255, 25, 0, 0.973);
+}
+.sistemas_informaticos {
+    background-color:rgb(30, 255, 105);
+}
+.ingles {
+    background-color:rgb(245, 31, 199);
+}
+.recreo {
+    text-align: center;
+    background-color: yellow;
+    font-weight: bold;
+}
+.lenguaje_marcas {
+    background-color: rgba(240, 155, 64, 0.954);
+}
+.formacion_orientacion {
+    background-color: rgba(45, 179, 236, 0.963);
+}

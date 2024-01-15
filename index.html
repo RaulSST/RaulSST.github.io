@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Webs publicadas</title>
+        <link rel="stylesheet" href="index-css.css">
+    </head>
+    <body>
+        <br><br>
+        <header>
+            <h1>WEBS PUBLICADAS</h1>
+        </header>     
+        <div class="contenedor-de-listas">
+            <ul>
+                <li>
+                    <button onclick="scrollUp(event, 'actividad1')">Actividad 1</button> 
+                    <a href="ACTIVIDAD1_de_RaulSegura/index.html" id="actividad1"></a>
+                    <br><br>
+                    <img src="img/Actividad_1.png" name="actividad1" width="320" height="310">             
+                </li>    
+            </ul>
+            <ul>
+                <li>
+                    <button onclick="scrollUp(event, 'actividad2')">Actividad 2</button> 
+                    <a href="ACTIVIDAD2_de_RaulSegura/index.html" id="actividad2"></a> 
+                    <br><br> 
+                    <img src="img/Actividad_2.png" name="actividad2" width="320" height="310">
+                </li>            
+            </ul>
+            <ul>
+                <li>
+                    <button onclick="scrollUp(event, 'actividad3')">Actividad 3</button> 
+                    <a href="ACTIVIDAD3_de_RaulSegura/index.html" id="actividad3"></a>               
+                    <br><br>
+                    <img src="img/Actividad_3.png" name="actividad3" width="320" height="310">
+                </li>              
+            </ul>
+        </div>
+        <div class="contenedor-de-listas">
+            <ul>
+                <li>
+                    <button onclick="scrollUp(event, 'actividad4')">Actividad 4</button> 
+                    <a href="ACTIVIDAD4_de_RaulSegura/index.html" id="actividad4"></a>            
+                    <br><br> 
+                    <img src="img/Actividad_4.png" name="actividad4" width="320" height="310">             
+                </li>    
+            </ul>
+            <ul>
+                <li>
+                    <button onclick="scrollUp(event, 'actividad5')">Actividad 5</button> 
+                    <a href="ACTIVIDAD5_de_RaulSegura/Formulario de pizza.html" id="actividad5"></a>             
+                    <br><br> 
+                    <img src="img/Actividad_5.png" name="actividad5" width="320" height="310">
+                </li>            
+            </ul>
+            <ul>
+                <li>
+                    <button onclick="scrollUp(event, 'Mi_web_personal')">Mi web personal</button> 
+                    <a href="MI-WEB-PERSONAL_RAÚL SEGURA/Mi Web personal.html" id="Mi_web_personal"></a>           
+                    <br><br>
+                    <img src="img/Mi_web_personal.png" name="Mi_web_personal" width="320" height="310">
+                </li>              
+            </ul>
+        </div>
+        <div class="contenedor-de-listas">
+            <ul>
+                <li>
+                    <button onclick="scrollUp(event, 'tabla-planificacion-semanal')"><small>Planificación semanal</small></button> 
+                    <a href="ACTIVIDA-TABLA-PLANIFICACION-SEMANAL/Horario DAW en HTML.html" id="tabla-planificacion-semanal"></a>                  
+                    <br><br> 
+                    <img src="img/tabla_planificacion_semanal.png" name="tabla-planificacion-semanal" width="340" height="310">             
+                </li>    
+            </ul>
+            <ul>
+                <li>
+                    <button onclick="scrollUp(event, 'recetas-de-cocina')">Recetas de cocina</button> 
+                    <a href="ACTIVIDAD-RECETAS-DE-COCINA/index.html" id="recetas-de-cocina"></a>                  
+                    <br><br> 
+                    <img src="img/recetas_de_cocina.png" name="recetas-de-cocina" width="320" height="310">
+                </li>            
+            </ul>
+            <ul>
+                <li>
+                    <button onclick="scrollUp(event, 'html-semantico')">HTML semántico</button> 
+                    <a href="HTML-SEMÁNTICO/HTML Semántico.html" id="html-semantico"></a>               
+                    <br><br>
+                    <img src="img/html_semantico.png" name="html-semantico" width="320" height="310">
+                </li>              
+            </ul>      
+        </div>
+        <div class="contenedor-de-listas">
+            <ul>
+                <li>
+                    <button onclick="scrollUp(event, 'Mi-ordenador-por-piezas')"><small>Mi ordenador por piezas</small></button> 
+                    <a href="MI-ORDENADOR-POR-PIEZAS/index.html" id="Mi-ordenador-por-piezas"></a>                  
+                    <br><br> 
+                    <img src="img/mi_ordenador_por_piezas.png" name="Mi-ordenador-por-piezas" width="340" height="310">             
+                </li>    
+            </ul>
+        </div>
+        <script> // <script> es una etiqueta de javascript
+            function scrollUp(event, id) {
+                event.preventDefault(); // Previene la navegación inmediata
+                // Agrega la clase de animación al cuerpo de la página
+                document.body.classList.add('pagina-animada');  
+                // Espera a que la animación termine antes de navegar
+                setTimeout(function() {
+                    window.location.href = document.getElementById(id).href; // Navega al enlace
+                    document.body.classList.remove('pagina-animada'); // Restablece el estado normal de la página
+                }, 1400); // Ajusta este valor al tiempo de tu animación
+            }
+        </script>
+        <br><br><br>
+    </body>
+</html>

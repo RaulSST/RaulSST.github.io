@@ -1,0 +1,154 @@
+body {
+    padding: 5px;
+}
+nav {  
+    margin: 20px auto 10px auto;
+    background-color: #023f7d; /* Nuevo color de fondo */
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0; /* Relleno respecto a lo dentro con el borde */
+}
+
+nav ul li {
+    font-size: 27px;
+    color: white;
+    display: inline;
+    margin: 10px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+nav ul li:hover {
+    color: #ddd;
+    transform: scale(1.2);
+}
+
+nav ul li a.active {
+    color: yellow; /* Cambia el color del texto del enlace activo */
+    
+}
+
+
+main{	
+    margin-left: 7%;
+    margin-right: 7%;
+	width: 90%;
+}
+
+article h2{
+    font-size: 31px;
+	color:  #ff0f0f;
+    margin-bottom: 0; /* Anula el margen inferior del h2 */
+}
+
+article p{
+	padding: 10px 5px 0px 5px;
+    font-size: 21px;
+	border-top: 3px solid #ff0f0f;
+	text-align: justify; /* alinea el texto a ambos lados del contenedor*/
+}
+
+.container {
+    display: flex; /* Establece el contenedor como un contenedor flexible, lo que permite a los elementos hijos ser flexibles */
+    padding: 20px; /* Añade un espacio de 20px alrededor del contenido del contenedor */  
+}
+
+.description {
+    width: 40%;
+    margin-left: 20%;
+    font-size: 18px; /* Establece el tamaño de la fuente del texto */
+}
+
+.imagen {
+    height: auto; /* Permite que la altura de la imagen se ajuste automáticamente para mantener las proporciones de la imagen */
+    object-fit: cover; /* Hace que la imagen se redimensione para cubrir completamente su contenedor, manteniendo las proporciones de la imagen */
+    margin-right: 20%;
+    border-radius: 10px; /* Añade bordes redondeados a la imagen para un aspecto más suave */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Añade una sombra sutil para dar profundidad */
+    transition: transform 0.2s ease-in-out; /* Añade una transición suave al transformar la imagen */
+}
+.imagen:hover {
+    transform: scale(1.10); /* Aumenta ligeramente el tamaño de la imagen cuando el ratón está sobre ella */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Añade una sombra más grande cuando el ratón está sobre la imagen */
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.kit-left {
+    margin-left: 7%;
+    margin-right: 6%;   
+}
+
+.imgKit-right{
+    height: auto; /* Permite que la altura de la imagen se ajuste automáticamente para mantener las proporciones de la imagen */
+    object-fit: cover; /* Hace que la imagen se redimensione para cubrir completamente su contenedor, manteniendo las proporciones de la imagen */
+    margin-right: 8%;
+    border-radius: 10px; /* Añade bordes redondeados a la imagen para un aspecto más suave */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Añade una sombra sutil para dar profundidad */
+    transition: transform 0.2s ease-in-out; /* Añade una transición suave al transformar la imagen */
+}
+.imgKit-right:hover {
+    transform: scale(1.10); /* Aumenta ligeramente el tamaño de la imagen cuando el ratón está sobre ella */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Añade una sombra más grande cuando el ratón está sobre la imagen */
+    cursor: pointer;
+}
+
+.kit-right {
+    margin-left: 6%;
+    margin-right: 7%; 
+}
+
+.imgKit-left{
+    height: auto; /* Permite que la altura de la imagen se ajuste automáticamente para mantener las proporciones de la imagen */
+    object-fit: cover; /* Hace que la imagen se redimensione para cubrir completamente su contenedor, manteniendo las proporciones de la imagen */
+    margin-left: 8%;
+    border-radius: 10px; /* Añade bordes redondeados a la imagen para un aspecto más suave */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Añade una sombra sutil para dar profundidad */
+    transition: transform 0.2s ease-in-out; /* Añade una transición suave al transformar la imagen */
+}
+.imgKit-left:hover {
+    transform: scale(1.10); /* Aumenta ligeramente el tamaño de la imagen cuando el ratón está sobre ella */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Añade una sombra más grande cuando el ratón está sobre la imagen */
+    cursor: pointer;
+}
+
+button {
+    margin-top: 50px;
+    padding: 12px 20px; /*10px indica el relleno superior e inferior y 20px el relleno izquierdo y derecho. */
+    font-size: 18px;
+    background-color: #ff3333;
+    color: white;
+    text-align: center;
+    display: block; /* Convierte el boton en elemento de bloque, y esto hace que podamos centrar el boton*/
+    margin: 0 auto; /* Centra al elemento de bloque, osea centra el boton */
+    border: none; /* Elimina los bordes */
+    border-radius: 5px; /* Esto redondeará las esquinas del botón */   
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.24), 0 3px 10px 0 rgba(0, 0, 0, 0.19); /* Esto añadirá una sombra al botón */   
+    transition: all 0.6s ease 0s; /* Esto añadirá una transición suave a los cambios de estilo del botón */
+    
+}
+button:hover {
+    background-color: #007BFF;  /* Esto cambiará el color de fondo del botón a un rojo más claro cuando pases el cursor sobre él */
+    cursor: pointer; /* Esto cambiará el cursor a una mano cuando pases el cursor sobre el botón */   
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+

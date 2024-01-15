@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ordenador Pack Horizon</title>
+        <link rel="stylesheet" href="index_css.css">
+    </head>
+    <body>
+        <header>
+            <h1>MI ORDENADOR POR PIEZAS</h1>
+        </header>        
+        <img src="PC.jpg" alt="ordenador" width="435"> 
+        <button onclick="scrollUp(event)">Ver piezas</button>
+        <a href="./piezas/monitor.html" id="piezas"></a>
+        <script> // <script> es una etiqueta de javascript
+            function scrollUp(event) {
+                event.preventDefault(); //Previene la navegación inmediata
+                document.body.style.marginTop = "-100vh"; //Transición de abajo hacia arriba
+                setTimeout(function() {
+                window.location.href = document.getElementById("piezas").href; // Navega al enlace después de la transición
+                }, 700); // Ajusta este valor al tiempo de tu transición, en este caso 700 milisegundos
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 25px;
+    transition: margin-top 1s;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+header { 
+    background-color: #2F4F4F;
+    padding: 10px;
+    border-bottom: 3px solid  #696969; /* Añade una línea en la parte inferior del encabezado */
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil debajo del encabezado */
+    font-family: 'PlayfairDisplar', serif; /* Cambia la fuente del texto */
+    font-size: 18px; /* Aumenta el tamaño de la fuente */
+    color: #F8F8FF; /* Cambia el color del texto */
+    letter-spacing: 2px; /* Añade un espacio entre las letras para mejorar la legibilidad */
+}
+
+img {
+    margin-top: 50px;
+    object-fit: cover;
+    height: auto;
+    display: block; /* Asegura que la imagen se muestre como un bloque, lo que puede solucionar problemas con los márgenes */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px; /* Añade bordes redondeados a la imagen para un aspecto más suave */
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.2); /* Añade una sombra sutil para dar profundidad */
+    transition: transform 0.2s ease-in-out; /* Añade una transición suave al transformar la imagen */
+    
+}
+/*El "hover" se ejecuta cuando se pone el puntero sobre el elemento.*/
+img:hover {
+    transform: scale(1.10); /* Aumenta ligeramente el tamaño de la imagen cuando el ratón está sobre ella */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Añade una sombra más grande cuando el ratón está sobre la imagen */
+    cursor: pointer;
+}
+
+button {
+    margin-top: 50px;
+    padding: 12px 20px; /*10px indica el relleno superior e inferior y 20px el relleno izquierdo y derecho. */
+    font-size: 18px;
+    background-color: #ff3333;
+    color: white;
+    border: none; /* Elimina los bordes */
+    border-radius: 5px; /* Esto redondeará las esquinas del botón */   
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.24), 0 3px 10px 0 rgba(0, 0, 0, 0.19); /* Esto añadirá una sombra al botón */   
+    transition: all 0.6s ease 0s; /* Esto añadirá una transición suave a los cambios de estilo del botón */
+    
+}
+button:hover {
+    background-color: #007BFF;  /* Esto cambiará el color de fondo del botón a un rojo más claro cuando pases el cursor sobre él */
+    cursor: pointer; /* Esto cambiará el cursor a una mano cuando pases el cursor sobre el botón */   
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
