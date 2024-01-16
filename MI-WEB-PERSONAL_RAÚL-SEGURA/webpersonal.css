@@ -1,0 +1,24 @@
+h1 {color: rgb(212, 18, 57)}
+h2 {color: rgb(56, 110, 210)}
+h3 {color: rgb(23, 139, 91)}
+p  {color:black}
+body {background-color: whitesmoke}
+.container {text-align: center}
+.myUL {
+    display: inline-block;
+    text-align: left
+}
+.myOL {
+    display: inline-block;
+     text-align: left
+}
+img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+iframe{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+} 
